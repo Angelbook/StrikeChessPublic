@@ -86,7 +86,6 @@ public class Rook : BasePiece
 
     public override void Place(Cell newCell)
     {
-        mCurrentCell.mCurrentPiece = null;
         base.Place(newCell);
 
         //Trigger Cell

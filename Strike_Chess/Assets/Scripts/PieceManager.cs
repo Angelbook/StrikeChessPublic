@@ -144,7 +144,7 @@ public class PieceManager : MonoBehaviour
         {
             //places pawns
             Units[i].Place(board.mAllCells[i, pawnRow]);
-            if(Units[i] is Pawn)
+            if (Units[i] is Pawn)
             {
                 pawn = (Pawn)Units[i];
                 pawn.SetEnPassantSpaces();
@@ -152,7 +152,8 @@ public class PieceManager : MonoBehaviour
             //places royalty
             Units[i + 8].Place(board.mAllCells[i, royaltyRow]);
         }
-
+        Debug.Log("Pawnrow " + pawnRow);
+        Debug.Log("royalty " + royaltyRow);
     }
 
     public void SetState(List<BasePiece> allUnits, PieceState newstate) //also resets Bliss, Dance

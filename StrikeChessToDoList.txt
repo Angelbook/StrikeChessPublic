@@ -1,0 +1,17 @@
+-Victory Screen and rematch options
+-Title/Options Screen Color Warping (also a BG for matches)
+-Transition Animations between player 1 turn and Player 2 Turn
+-Intro Animation
+-Options Menu should have BG toggles
+-Player 1/2/random first move select
+
+Extra
+
+-Skins for Pieces
+retro
+bubble/soft
+
+
+Bugs: 
+
+A pawn that succeeds in En Pass attacks will not register at the correct location.
