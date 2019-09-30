@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 409819f59892ffd43aa5aeff605e1696
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: AragonCondensedW01-Regular
+  fontNames:
+  - AragonCondensedW01-Regular
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d3384544fca734e438615ba144bcc9d0, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
